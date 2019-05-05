@@ -1,0 +1,91 @@
+.container {
+  display: grid;
+  grid-template-areas:
+  "header header"
+  "navigation content";
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 1fr 4fr;
+  grid-gap: 10px;
+  max-width: 1200px;
+  margin: auto;
+  min-height: 600px;
+}
+
+.header {
+  grid-area: header;
+  background-color: mediumseagreen;
+  background-image: url(https://www.freelogodesign.org/Content/img/logo-ex-7.png);
+  background-repeat: no-repeat;
+  background-size: 60px;
+}
+
+.navigation {
+  grid-area: navigation;
+  background-color: mediumseagreen;
+}
+
+.navigation__list {
+  margin-left: -20px;
+  padding-right: 10px;
+}
+
+.navigation__item {
+  list-style-type: none;
+}
+
+.navigation__link {
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+}
+
+.navigation__item:last-child {
+  margin-top: 25px;
+}
+
+.content {
+  grid-area: content;
+  background-color: white;
+  background-image: url(https://izo-life.ru/wp-content/uploads/gorisont_m.png);
+  background-repeat: no-repeat;
+  -webkit-background-size: 100% 150px;
+  background-size: 100% 150px;
+  padding-top: 160px;
+}
+
+.description {
+  display: flex;
+}
+
+.description__avatar {
+  height: 125px;
+}
+
+.description__list {
+  list-style-type: none;
+  margin-top: 0px;
+}
+
+.description__item:first-child {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.posts {
+  padding-left: 20px;
+}
+
+.posts__title {
+  font-size: 22px;
+}
+
+.posts__button {
+  height: 25px;
+  width: 90px;
+  padding-left: 15px;
+  margin: rigth;
+  margin-top: 10px;
+  background-color: mediumseagreen;
+  position: relative;
+  left: 615px;
+}
