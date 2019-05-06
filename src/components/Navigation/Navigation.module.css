@@ -1,0 +1,28 @@
+.navigation {
+  grid-area: navigation;
+  background-color: mediumseagreen;
+  position: relative;
+}
+
+.list {
+  margin-left: -20px;
+  padding-right: 10px;
+}
+
+.item {
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+}
+
+.active {
+  color: gold;
+}
+
+.item:last-child {
+  margin-top: 25px;
+}

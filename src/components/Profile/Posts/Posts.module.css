@@ -1,0 +1,18 @@
+.posts {
+  padding-left: 20px;
+}
+
+.title {
+  font-size: 22px;
+}
+
+.button {
+  height: 25px;
+  width: 90px;
+  padding-left: 15px;
+  margin: rigth;
+  margin-top: 10px;
+  background-color: mediumseagreen;
+  position: relative;
+  left: 615px;
+}

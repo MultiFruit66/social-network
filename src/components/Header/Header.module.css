@@ -1,0 +1,7 @@
+.header {
+  grid-area: header;
+  background-color: mediumseagreen;
+  background-image: url(https://www.freelogodesign.org/Content/img/logo-ex-7.png);
+  background-repeat: no-repeat;
+  background-size: 60px;
+}

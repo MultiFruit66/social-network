@@ -1,0 +1,26 @@
+.profile {
+  background-color: white;
+  background-image: url(https://izo-life.ru/wp-content/uploads/gorisont_m.png);
+  background-repeat: no-repeat;
+  -webkit-background-size: 100% 150px;
+  background-size: 100% 150px;
+  padding-top: 160px;
+}
+
+.description {
+  display: flex;
+}
+
+.avatar {
+  height: 125px;
+}
+
+.list {
+  list-style-type: none;
+  margin-top: 0px;
+}
+
+.item:first-child {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
