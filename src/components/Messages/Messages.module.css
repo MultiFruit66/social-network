@@ -1,0 +1,15 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 20px 1fr;
+    grid-template-areas: 
+    "title title"
+    "contacts chats";   
+}
+
+.title {
+    grid-area: title;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-left: 10px;
+}

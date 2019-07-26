@@ -1,0 +1,4 @@
+.contacts {
+    grid-area: contacts;
+    border-right: 1px solid rgb(121, 31, 121);
+}

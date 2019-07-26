@@ -1,0 +1,19 @@
+.item {
+    list-style-type: none;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.image {
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.message {
+    max-width: 660px;
+    overflow: hidden;
+    padding-left: 20px;
+    margin-left: 10px;
+    box-sizing: border-box;
+}
